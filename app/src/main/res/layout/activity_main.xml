@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aaron.calculateemi.MainActivity"
+    android:textColor="#c1f4b4"
+    android:background="#000000"
+
+    >
+
+    <TextView
+        android:id="@+id/tvDisplayEMI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EMI"
+        android:layout_weight="0.50"
+        android:textSize="50dp"
+        android:textColor="#c1f4b4"
+        />
+1"
+        />
+
+    <TextView
+        android:id="@+id/tvDisplayInterestRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Interest Rate"
+        android:textColor="#c1f4b4"
+        />
+    <SeekBar
+        android:id="@+id/sbSetInterestRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="1" />
+    <TextView
+        android:id="@+id/tvDisplayPrinciple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Principle"
+        android:textColor="#c1f4b4"
+        />
+    <SeekBar
+        android:id="@+id/sbSetPrinciple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="1000000"
+        android:progress="1000" />
+    <TextView
+        android:id="@+id/tvDisplayDuration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Duration"
+        android:textColor="#c1f4b4"
+        />
+    <SeekBar
+        android:id="@+id/sbSetDuration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="30"
+        android:progress="1"
+
+        />
+
+
+
+
+</LinearLayout>
