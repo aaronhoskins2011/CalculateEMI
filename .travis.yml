@@ -18,4 +18,4 @@ before_install:
   script:
     --daemon
     - echo "Travis branch is $TRAVIS_BRANCH"
-    - ./gradlew clean test
+   
