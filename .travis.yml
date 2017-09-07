@@ -16,5 +16,6 @@ dist: precise
 before_install:
   - echo yes | android update sdk --all --filter build-tools-26 --no-ui --force
   script:
+    --daemon
     - echo "Travis branch is $TRAVIS_BRANCH"
     - ./gradlew clean test
